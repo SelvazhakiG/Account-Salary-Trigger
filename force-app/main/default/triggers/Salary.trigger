@@ -2,7 +2,7 @@
 /*
 *********************************************************
 Apex Trigger Name  : Salary
-Created Date       : March 03, 2023
+Created Date       : March 02, 2023
 @description       : This Trigger is for to calculating Total and
                      Maximum Salary for the related(Lookup) 
                      Account_Salary(Custom Object)
