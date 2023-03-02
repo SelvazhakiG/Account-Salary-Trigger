@@ -1,7 +1,7 @@
 /*
 *********************************************************
 Apex Class Name    : SalaryTriggerHandler
-Created Date       : March 03, 2023
+Created Date       : March 02, 2023
 @description       : This Class is the handler for SalaryTrigger.
                      This class calculates Total and Maximun Salary   
 @author            : Selvazhaki Govindarasu
