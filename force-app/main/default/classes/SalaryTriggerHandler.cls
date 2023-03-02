@@ -66,6 +66,7 @@ public class SalaryTriggerHandler {
         }        
     }
     
+// Method to calculate the Total Salary:
     public static List<Account> TotalMaxSalary(Set<Id> acIds)
     {
         List<Account> acUpdate = new List<Account>();
@@ -86,7 +87,6 @@ public class SalaryTriggerHandler {
         }
         if(!acSal.isEmpty())
         {
-           // List<Account> acMxUpdate = new List<Account>();
            Map <Id, Decimal> acMxUpdate=new Map <Id, Decimal>();
             acMxUpdate = MaxSalary(acIds);
             for(Id i : acSal.keySet())
@@ -103,7 +103,7 @@ public class SalaryTriggerHandler {
         return acUpdate;
 
     }
-    
+    // Method to calculate the Maximum Salary:
     public static Map<Id, Decimal> MaxSalary(Set<Id> acIds)
     {
       	//List<Account> acUpdate=new List<Account>();
